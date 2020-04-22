@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tower of Hanoi with BFS Algorithm</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="bars">
+            <div id ="bar1" class="bar bar1"></div>
+            <div id ="bar2" class="bar bar2"></div>
+            <div id ="bar3" class="bar bar3"></div>
+            <p id="cong" class="cong"></p>
+        </div>
+        <div id = "disks" class="disks"></div>
+    </div>
+
+        <!-- Start Popup the number of disk -->
+        <div class="disk_number">
+            <div class="input_box">
+                <p>Number of disks between<br> <span> 3 </span> & <span> 8</span></p>
+                <div>
+                    <input type = "text" class="input_show" id="input_show">
+                </div>
+                <button>Go</button>
+            </div>
+        </div>
+        <!-- End Popup the number of disk -->
+
+    <!-- Start loading -->
+    <div class="loading-box">
+        <div class="loading">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <!-- End Loading -->
+
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
